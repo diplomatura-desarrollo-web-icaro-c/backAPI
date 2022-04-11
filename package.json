@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "express": "^4.17.3"
-  }
+  },
+  "name": "backapi",
+  "description": "Api demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diplomatura-desarrollo-web-icaro-c/backAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diplomatura-desarrollo-web-icaro-c/backAPI/issues"
+  },
+  "homepage": "https://github.com/diplomatura-desarrollo-web-icaro-c/backAPI#readme"
 }
