@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/usuarios", (req, res) => {
-  let respuesta = fetch("http://localhost:3000/all")
+  fetch("http://localhost:3000/all")
     .then((response) => response.json())
     .then((data) => res.send(data));
 });
